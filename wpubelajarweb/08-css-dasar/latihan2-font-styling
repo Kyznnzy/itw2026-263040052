@@ -1,0 +1,58 @@
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Galau</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      text-transform: uppercase;
+      font-style: italic;
+      letter-spacing: 10px;
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: brown;
+      text-shadow: 5px 5px 0 white;
+    }
+
+    .quote {
+      font-size: 22px;
+      line-height: 2.2;
+      word-spacing: 5px;
+    }
+
+    span {
+      color:gray;
+      text-decoration: line-through;
+    }
+
+    .credit {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: blue;
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>quote</h1>
+
+  <p class="quote">
+    “We cannot solve <span>Problems</span> with the kind of thinking we employed when we came up with them."
+  </p>
+
+  <p class="credit">— Albert Einstein</p>
+
+</body>
+
+</html>
+

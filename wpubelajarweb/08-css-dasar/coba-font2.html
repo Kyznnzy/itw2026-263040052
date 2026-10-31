@@ -1,46 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coba CSS - Font Styling</title>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Redaction+35:ital,wght@0,400;0,700;1,400&display=swap');
-        
-            @font face {
-                font-family: 'Redaction 35';
-                src: url('Redaction35-Regular.ttf') format('truetype');
-                font-weight: normal;
-                font-style: normal;
-                font-display: swap;
-            }
-        
-         h1 {
-            color: crimson;     
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        @font-face {
+            font-family: "Bodoni Moda";
+            src: url("fonts/BodoniModa.ttf") format("truetype");
+        }
+
+
+
+        h1 {
+            color: purple;
             font-size: 60px;
             text-align: center;
-            font-family: 'Redaction 35', sans-serif;
+            font-family: "Redaction 50", serif;
         }
 
         p {
-            color: navy;
-            text-align: center;
-            font-size: 30px;
+            color:Navy;
+            text-align: justify;
+            font-size: 18px;
             line-height: 1.6;
-            font-family: 'Lora', serif;
+            font-family: "Bebas Neue", sans-serif;
         }
 
-          font- Redaction 35 {
-            src: url('Redaction35-Regular.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
+        .font-bodoni {
+            font-family: "Bodoni Moda", serif;
+        }
     </style>
 </head>
 
 <body>
     <h1>Hello World</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id vitae nisi magni! Aliquam quaerat amet laboriosam asperiores quasi dignissimos.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore id est accusantium! Minima aperiam et harum, eligendi debitis provident.</p>
+    <p class="font-bodoni">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore id est accusantium! Minima aperiam et harum, eligendi debitis provident.</p>
 </body>
 
 </html>
